@@ -1,0 +1,37 @@
+* C:\Users\ga92wum\git\UltraZohm\PCB\uz_per_wolfspeedinv_interface\LTSpice\CurrentConditioning\LTspice_CurrentConditioning_eyke.asc
+V1 N007 0 3.3
+R1 N004 N008 49.9 pwr=0.1
+C1 N008 0 4.7n V=25
+C2 N004 N003 100p V=50V
+R2 N004 N003 7.87k pwr=0.1
+R3 Test4 Test5 7.15k pwr=0.1
+R4 Test3 Test4 1.33k pwr=0.1
+V2 Test3 0 3.3
+C3 Test5 0 100p
+R5 N010 0 100 pwr=0.75
+R6 Test4 0 4.02k pwr=0.1
+R7 N010 Test4 2k pwr=0.1
+C4 Test4 0 4.7n V=25
+V5 N005 0 5
+R8 N008 N001 1k
+V6 N011 0 1.65
+R10 N013 N012 1k
+R11 N002 N001 1k
+R9 N011 N012 1k
+I1 0 N009 10e-3
+X§U3 N001 N012 N013 N002 N006 N005 0 THS4561
+V3 N006 0 2.5
+R12 Vout_N N002 50
+R13 Vout_P N013 50
+R14 Vout_N Vout_P 10k
+R15 N010 N009 10e-3
+X§U2 Test5 N003 N007 0 N004 AD8618
+.tran .1
+* .ac dec 100 10 1M
+.lib AD8615.cir
+.options srcstepmethod=1
+.options reltol=0.01 abstol=1e-6 vntol=1e-6 gmin=1e-9
+.lib AD8618.lib
+.lib ths4561.lib
+.backanno
+.end
