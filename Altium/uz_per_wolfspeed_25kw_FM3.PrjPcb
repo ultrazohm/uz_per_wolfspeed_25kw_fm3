@@ -169,7 +169,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DNOBLOJT
 
 [Document8]
-DocumentPath=PCB.PcbDoc
+DocumentPath=uz_per_wolfspeed_25kw_FM3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
