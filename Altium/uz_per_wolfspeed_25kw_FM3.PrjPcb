@@ -152,23 +152,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BUAYQELS
 
 [Document7]
-DocumentPath=Connector_AnalogSig.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DNOBLOJT
-
-[Document8]
 DocumentPath=PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DNHLPXET
 
-[Document9]
+[Document8]
 DocumentPath=PCB_Interface_Inverter_UZ.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQBUOMHU
 
-[Document10]
+[Document9]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OGHTCBPJ
 
-[Document11]
+[Document10]
 DocumentPath=DCVoltageConditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VUCFAZSN
 
-[Document12]
+[Document11]
 DocumentPath=uz_per_wolfspeed_25kw_FM3.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MZIUFWTC
 
-[Document13]
+[Document12]
 DocumentPath=uz_per_wolfspeed_25kw_FM3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,6 +252,18 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SFPMPOHM
+
+[DiffPairSuffix1]
+Positive=_P1
+Negative=_N1
+
+[DiffPairSuffix2]
+Positive=_P2
+Negative=_N2
+
+[DiffPairSuffix3]
+Positive=_P3
+Negative=_N3
 
 [Configuration1]
 Name=Sources
