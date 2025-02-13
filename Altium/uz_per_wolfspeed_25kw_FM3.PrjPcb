@@ -270,21 +270,38 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=UZ_Outputjob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=AuthorParam
-Value=S. Park
+Name=ProjectRevision
+Value=Rev01
 
 [Parameter2]
+Name=ProjectDate
+Value=03/25
+
+[Parameter3]
 Name=Project
 Value=uz_per_wolfspeed_25kw_FM3
 
-[Parameter3]
-Name=ProjectDate
-Value=02/25
-
 [Parameter4]
-Name=ProjectRevision
-Value=Rev01
+Name=AuthorParam
+Value=S. Park
 
 [Configuration1]
 Name=Sources
