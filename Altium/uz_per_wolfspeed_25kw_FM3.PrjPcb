@@ -237,7 +237,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MZIUFWTC
 
 [Document12]
-DocumentPath=uz_per_wolfspeed_25kw_FM3.PcbDoc
+DocumentPath=Copy of uz_per_wolfspeed_25kw_FM3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -251,7 +251,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SFPMPOHM
+DocumentUniqueId=OWLHJITI
 
 [Document13]
 DocumentPath=uz_per_wolfspeed_25kw_FM3.Annotation
@@ -288,20 +288,36 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev01
+Name=AuthorParam
+Value=S. Park
 
 [Parameter2]
-Name=ProjectDate
-Value=03/25
-
-[Parameter3]
 Name=Project
 Value=uz_per_wolfspeed_25kw_FM3
 
+[Parameter3]
+Name=ProjectDate
+Value=03/25
+
 [Parameter4]
-Name=AuthorParam
-Value=S. Park
+Name=ProjectRevision
+Value=Rev01
+
+[DiffPairSuffix1]
+Positive=_P1
+Negative=_N1
+
+[DiffPairSuffix2]
+Positive=_P2
+Negative=_N2
+
+[DiffPairSuffix3]
+Positive=_P3
+Negative=_N3
+
+[DiffPairSuffix4]
+Positive=_P4
+Negative=_N4
 
 [Configuration1]
 Name=Sources
