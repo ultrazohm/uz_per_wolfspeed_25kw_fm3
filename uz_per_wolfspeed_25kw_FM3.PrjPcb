@@ -40,7 +40,6 @@ ManagedProjectGUID=4EE174C7-482F-4734-976F-810239263B4D
 VaultGUID=FD5250E2-FA59-4D7F-BE27-0FB229537687
 ReleaseVaultName=HLU TUM
 ItemGUID=4EE174C7-482F-4734-976F-810239263B4D
-VcsMigrated=FD5250E2-FA59-4D7F-BE27-0FB229537687|4EE174C7-482F-4734-976F-810239263B4D
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -55,7 +54,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=TopSheet.SchDoc
+DocumentPath=Altium\TopSheet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +71,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FFCKKCQT
 
 [Document2]
-DocumentPath=Connector_Inverter.SchDoc
+DocumentPath=Altium\Connector_Inverter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +88,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PYSKWKVZ
 
 [Document3]
-DocumentPath=CurrentConditioning.SchDoc
+DocumentPath=Altium\CurrentConditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +105,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MURSBSRZ
 
 [Document4]
-DocumentPath=DCVoltageConditioning.SchDoc
+DocumentPath=Altium\DCVoltageConditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +122,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VUCFAZSN
 
 [Document5]
-DocumentPath=Receivers.SchDoc
+DocumentPath=Altium\Receivers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +139,7 @@ GenerateClassCluster=0
 DocumentUniqueId=POEFIYHG
 
 [Document6]
-DocumentPath=Transmitters.SchDoc
+DocumentPath=Altium\Transmitters.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +156,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RZKXVFAK
 
 [Document7]
-DocumentPath=OvercurrentDetection.SchDoc
+DocumentPath=Altium\OvercurrentDetection.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -174,7 +173,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BUAYQELS
 
 [Document8]
-DocumentPath=PCB.PcbLib
+DocumentPath=Altium\PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,7 +190,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DNHLPXET
 
 [Document9]
-DocumentPath=PCB_Interface_Inverter_UZ.SCHLIB
+DocumentPath=Altium\PCB_Interface_Inverter_UZ.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +207,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DQBUOMHU
 
 [Document10]
-DocumentPath=Power.SchDoc
+DocumentPath=Altium\Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -225,7 +224,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OGHTCBPJ
 
 [Document11]
-DocumentPath=uz_per_wolfspeed_25kw_FM3.SCHLIB
+DocumentPath=Altium\uz_per_wolfspeed_25kw_FM3.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -242,7 +241,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MZIUFWTC
 
 [Document12]
-DocumentPath=uz_per_wolfspeed_25kw_FM3.PcbDoc
+DocumentPath=Altium\uz_per_wolfspeed_25kw_FM3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -276,7 +275,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=UZ_Outputjob.OutJob
+DocumentPath=Altium\UZ_Outputjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -293,7 +292,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
-DocumentPath=uz_per_wolfspeed_25kw_FM3_1.SCHLIB
+DocumentPath=Altium\uz_per_wolfspeed_25kw_FM3_1.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
