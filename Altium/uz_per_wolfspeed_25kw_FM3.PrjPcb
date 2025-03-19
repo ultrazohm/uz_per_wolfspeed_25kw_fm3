@@ -36,10 +36,7 @@ ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=4EE174C7-482F-4734-976F-810239263B4D
-VaultGUID=FD5250E2-FA59-4D7F-BE27-0FB229537687
-ReleaseVaultName=HLU TUM
-ItemGUID=4EE174C7-482F-4734-976F-810239263B4D
+ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -47,14 +44,14 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=default
+CurrentVariant=jlc
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Altium\TopSheet.SchDoc
+DocumentPath=TopSheet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -71,7 +68,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FFCKKCQT
 
 [Document2]
-DocumentPath=Altium\Connector_Inverter.SchDoc
+DocumentPath=Connector_Inverter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -88,7 +85,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PYSKWKVZ
 
 [Document3]
-DocumentPath=Altium\CurrentConditioning.SchDoc
+DocumentPath=CurrentConditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -105,7 +102,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MURSBSRZ
 
 [Document4]
-DocumentPath=Altium\DCVoltageConditioning.SchDoc
+DocumentPath=DCVoltageConditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -122,7 +119,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VUCFAZSN
 
 [Document5]
-DocumentPath=Altium\Receivers.SchDoc
+DocumentPath=Receivers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -139,7 +136,7 @@ GenerateClassCluster=0
 DocumentUniqueId=POEFIYHG
 
 [Document6]
-DocumentPath=Altium\Transmitters.SchDoc
+DocumentPath=Transmitters.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -156,7 +153,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RZKXVFAK
 
 [Document7]
-DocumentPath=Altium\OvercurrentDetection.SchDoc
+DocumentPath=OvercurrentDetection.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -173,7 +170,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BUAYQELS
 
 [Document8]
-DocumentPath=Altium\PCB.PcbLib
+DocumentPath=PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -190,7 +187,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DNHLPXET
 
 [Document9]
-DocumentPath=Altium\PCB_Interface_Inverter_UZ.SCHLIB
+DocumentPath=PCB_Interface_Inverter_UZ.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -207,7 +204,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DQBUOMHU
 
 [Document10]
-DocumentPath=Altium\Power.SchDoc
+DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -224,7 +221,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OGHTCBPJ
 
 [Document11]
-DocumentPath=Altium\uz_per_wolfspeed_25kw_FM3.SCHLIB
+DocumentPath=uz_per_wolfspeed_25kw_FM3.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -241,7 +238,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MZIUFWTC
 
 [Document12]
-DocumentPath=Altium\uz_per_wolfspeed_25kw_FM3.PcbDoc
+DocumentPath=uz_per_wolfspeed_25kw_FM3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -275,7 +272,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=Altium\UZ_Outputjob.OutJob
+DocumentPath=UZ_Outputjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -292,7 +289,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
-DocumentPath=Altium\uz_per_wolfspeed_25kw_FM3_1.SCHLIB
+DocumentPath=uz_per_wolfspeed_25kw_FM3_1.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -352,20 +349,20 @@ ParamDesignator9=J3B
 ParamVariationCount=9
 
 [Parameter1]
-Name=AuthorParam
-Value=S. Park
+Name=ProjectRevision
+Value=Rev02
 
 [Parameter2]
-Name=Project
-Value=uz_per_wolfspeed_25kw_FM3
-
-[Parameter3]
 Name=ProjectDate
 Value=03/25
 
+[Parameter3]
+Name=Project
+Value=uz_per_wolfspeed_25kw_FM3
+
 [Parameter4]
-Name=ProjectRevision
-Value=Rev01
+Name=AuthorParam
+Value=S. Park
 
 [DiffPairSuffix1]
 Positive=_P1
@@ -503,6 +500,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -514,6 +521,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -886,6 +903,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1049,7 +1096,6 @@ Type147=1
 Type148=1
 Type149=1
 Type150=1
-Type151=1
 
 [Difference Levels]
 Type1=1
@@ -1133,7 +1179,6 @@ Type78=1
 Type79=1
 Type80=1
 Type81=1
-Type82=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1290,13 +1335,6 @@ Type151=2
 Type152=1
 Type153=1
 Type154=0
-Type155=0
-Type156=0
-Type157=0
-Type158=0
-Type159=0
-Type160=0
-Type161=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
