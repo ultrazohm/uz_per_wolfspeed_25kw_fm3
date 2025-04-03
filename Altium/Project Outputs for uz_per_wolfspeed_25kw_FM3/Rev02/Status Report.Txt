@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:06:42 On 19.03.2025
+
+Output: BOM_JLC
+Type  : BOM
+From  : Variant [jlc] of Project [uz_per_wolfspeed_25kw_FM3.PrjPcb]
+   Generated File[BOM_JLC_uz_per_wolfspeed_25kw_FM3_jlc_Rev02.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:06:58 On 19.03.2025
