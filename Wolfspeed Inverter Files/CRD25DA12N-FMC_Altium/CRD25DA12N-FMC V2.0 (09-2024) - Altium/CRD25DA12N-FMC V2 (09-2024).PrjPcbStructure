@@ -1,0 +1,9 @@
+Record=TopLevelDocument|FileName=01 - Notes.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=02 - Power Stage.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=03 - Controller.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=04 - Auxiliary Power.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=05 - Gate Drivers.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=06 - Voltage Sense.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=07 - Current-Temp Sense.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=08 - Resolver.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01 - Notes.SchDoc|FileName=09 - Controlled Power.SchDoc|SheetNumber=9
