@@ -366,20 +366,20 @@ ParamDesignator9=J3B
 ParamVariationCount=9
 
 [Parameter1]
-Name=AuthorParam
-Value=S. Park
+Name=ProjectRevision
+Value=Rev04
 
 [Parameter2]
+Name=ProjectDate
+Value=06/26
+
+[Parameter3]
 Name=Project
 Value=uz_per_wolfspeed_25kw_FM3
 
-[Parameter3]
-Name=ProjectDate
-Value=04/25
-
 [Parameter4]
-Name=ProjectRevision
-Value=Rev03
+Name=AuthorParam
+Value=S. Park/M. Hoerner
 
 [DiffPairSuffix1]
 Positive=_P1
