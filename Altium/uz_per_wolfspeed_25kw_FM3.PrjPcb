@@ -170,6 +170,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BUAYQELS
 
 [Document8]
+DocumentPath=local_parts\SOIC127P600X175-14N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CAGKEGYS
+
+[Document9]
 DocumentPath=PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DNHLPXET
 
-[Document9]
+[Document10]
 DocumentPath=PCB_Interface_Inverter_UZ.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQBUOMHU
 
-[Document10]
+[Document11]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OGHTCBPJ
 
-[Document11]
+[Document12]
 DocumentPath=uz_per_wolfspeed_25kw_FM3.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MZIUFWTC
 
-[Document12]
+[Document13]
 DocumentPath=uz_per_wolfspeed_25kw_FM3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OWLHJITI
 
-[Document13]
+[Document14]
 DocumentPath=uz_per_wolfspeed_25kw_FM3.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document15]
 DocumentPath=UZ_Outputjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=uz_per_wolfspeed_25kw_FM3_1.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYBIQZQX
 
-[Document16]
+[Document17]
 DocumentPath=GateAndFanControl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -313,7 +330,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=8
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -322,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MTWPTUYY
 
-[Document17]
+[Document18]
 DocumentPath=OvercurrentDetectionLogic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NFOYZXZI
 
-[Document18]
+[Document19]
 DocumentPath=TempSenseConditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -347,7 +364,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=10
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -355,6 +372,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZFZGCVVJ
+
+[Document20]
+DocumentPath=..\Wolfspeed Inverter Files\CRD25DA12N-FMC_Altium\CRD25DA12N-FMC V1.1 (07-2023) - Altium\CRD25DA12N-FMC.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=..\Wolfspeed Inverter Files\CRD25DA12N-FMC_Altium\CRD25DA12N-FMC V1.1 (07-2023) - Altium\CRD25DA12N-FMC.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=56db1c35-ed65-4f35-8b4e-2dc3bcaa72e5
@@ -1422,11 +1473,11 @@ NetClassSeparateForBusSections=0
 SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
-PartTypes=0
+PartTypes=1
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=user.DbLib/Connectors - Pin Header
-ComponentDesignItemID0=2.54-2*3
-ComponentSymbolReference0=TSW-103-05-G-D
+ComponentLibraryIdentifier0=uz_per_wolfspeed_25kw_FM3.SCHLIB
+ComponentDesignItemID0=SN74HCS08DR
+ComponentSymbolReference0=SN74HCS08DR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1442,72 +1493,24 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Availability
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Component Type
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
+ParameterName4=Mfr_Name
 ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
+ParameterName5=RefDes
 ParameterUpdate5=1
-ParameterName6=Created from
+ParameterName6=Type
 ParameterUpdate6=1
-ParameterName7=Created On
-ParameterUpdate7=1
-ParameterName8=Description
-ParameterUpdate8=1
-ParameterName9=Device Package
-ParameterUpdate9=1
-ParameterName10=Last Updated
-ParameterUpdate10=1
-ParameterName11=LCSC Part Number
-ParameterUpdate11=1
-ParameterName12=Library Reference
-ParameterUpdate12=1
-ParameterName13=Live Cycle Status
-ParameterUpdate13=1
-ParameterName14=Manufacturer
-ParameterUpdate14=1
-ParameterName15=Manufacturer Part Number
-ParameterUpdate15=1
-ParameterName16=MF
-ParameterUpdate16=1
-ParameterName17=Mounting Type
-ParameterUpdate17=1
-ParameterName18=MP
-ParameterUpdate18=1
-ParameterName19=Number of positions
-ParameterUpdate19=1
-ParameterName20=Number of rows
-ParameterUpdate20=1
-ParameterName21=Operating Temperature
-ParameterUpdate21=1
-ParameterName22=Package
-ParameterUpdate22=1
-ParameterName23=PartID
-ParameterUpdate23=1
-ParameterName24=Price
-ParameterUpdate24=1
-ParameterName25=Series
-ParameterUpdate25=1
-ParameterName26=Stock number
-ParameterUpdate26=1
-ParameterName27=Supplier 1
-ParameterUpdate27=1
-ParameterName28=Supplier Part Number 1
-ParameterUpdate28=1
-ParameterName29=Type
-ParameterUpdate29=1
-ParameterName30=Value
-ParameterUpdate30=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SAMTEC_TSW-103-05-G-D
+ModelName0=SOIC_S08DR_TEX
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
