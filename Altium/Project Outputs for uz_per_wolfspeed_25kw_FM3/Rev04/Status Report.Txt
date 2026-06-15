@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:32:14 On 15.06.2026
+
+Output: Pick and Place Files
+Type  : Pick Place
+From  : Variant [jlc] of PCB Document [uz_per_wolfspeed_25kw_FM3.PcbDoc]
+   Generated File[Pick_and_Place_uz_per_wolfspeed_25kw_FM3_jlc_Rev04.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:32:15 On 15.06.2026
