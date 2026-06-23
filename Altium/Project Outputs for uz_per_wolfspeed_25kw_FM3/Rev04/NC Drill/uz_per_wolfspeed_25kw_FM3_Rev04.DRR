@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: uz_per_wolfspeed_25kw_FM3.PcbDoc   23.06.2026  16:29:18
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : uz_per_wolfspeed_25kw_FM3_Rev04.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             220       PTH        39.30inch (998.31mm)
+T2      35mil (0.889mm)         +/-3mil (0.076mm)                 Round             18        PTH        5.07inch (128.77mm)
+T3      35mil (0.899mm)                                           Round             8         PTH        0.71inch (18.08mm)
+T4      38mil (0.965mm)                                           Round             36        PTH        4.75inch (120.57mm)
+T5      40mil (1.021mm)                                           Round             12        PTH        1.80inch (45.68mm)
+T6      63mil (1.6mm)                                             Round             2         PTH        0.61inch (15.47mm)
+T7      126mil (3.2mm)                                            Round             4         NPTH       3.54inch (89.80mm)
+T8      128mil (3.251mm)                                          Round             2         NPTH       0.45inch (11.43mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              302
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -3,9 +3,9 @@ SymbolType BLOCK
 RECTANGLE Normal -64 -56 64 56
 WINDOW 0 0 -56 Bottom 2
 WINDOW 3 0 56 Top 2
-SYMATTR Prefix X
 SYMATTR Value LOGIC_GATE_2PIN_OD_HC_2i_AND_PP_ST_SN74HCS08
-SYMATTR ModelFile C:\Users\seong\Bachelor_Thesis\uz_per_wolfspeed_25kw_FM3\LTSpice\OvercurrentDetection\SN74HCS08.cir
+SYMATTR Prefix X
+SYMATTR ModelFile SN74HCS08.cir
 PIN 64 0 LEFT 8
 PINATTR PinName OUT
 PINATTR SpiceOrder 1
